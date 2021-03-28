@@ -4,7 +4,7 @@
     $Subject = $_POST['Subject'];
     $Message = $_POST['Message'];
 
-	$conn = new mysqli('sql208.unaux.com','root','Rajat@1662','unaux_28218872_sample');
+	$conn = new mysqli('sql208.unaux.com','unaux_28218872','ch72htje4bj1zw','unaux_28218872_sample');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
