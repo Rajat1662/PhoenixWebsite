@@ -17,4 +17,31 @@
 		$stmt->close();
 		$conn->close();
 	}
-?>
+
+	// $html="<table><tr><td>Name</td><td>$Name</td></tr><tr><td>Email</td><td>$Email</td></tr><tr><td>Subject</td><td>$Subject</td></tr><tr><td>Message</td><td>$Message</td></tr></table>";
+
+	// include('smtp/PHPMailerAutoload.php');
+	// $mail= new PHPMailer(true);
+	// $mail->isSMTP();
+	// $mail->Host="smtp.gmail.com";
+	// $mail->Port=587;
+	// $mail->SMTPSecure="tls";
+	// $mail->SMTPAuth=true;
+	// $mail->Username="rajatgoyal.phoenix@gmail.com";
+	// $mail->Password="Rajat@1662";
+	// $mail->SetFrom("rajatgoyal.phoenix@gmail.com");
+	// $mail->addAddress("rajatgoyal.phoenix@gmail.com");
+	// $mail->IsHTML(true);
+	// $mail->Subject="New Contact Us";
+	// $mail->Body=$html;
+	// $mail->SMTPOptions=array('ssl'=>array(
+	// 	'verify_peer'=>false,
+	// 	'verify_peer_name'=>false,
+	// 	'allow_self_signed'=>false
+	// ));
+	// if($mail->send()){
+	// 	//echo "Mail send";
+	// }else{
+	// 	//echo "Error occur";
+	// }
+	// echo $msg;
